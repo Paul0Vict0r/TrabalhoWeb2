@@ -113,7 +113,7 @@ function desligaGeral1(comodoId) {
     var comodo = document.getElementById(comodoId);
     comodo.style.backgroundColor = "black";
     comodo.style.color = "black";
-    comodo.style.border = "white";
+    comodo.style.border = "2px solid white";
 }
 
 function ligaGeral() {
