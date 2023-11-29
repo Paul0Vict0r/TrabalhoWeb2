@@ -71,35 +71,35 @@ document.getElementById("btn-sala1-off").addEventListener("click", function () {
 });
 
 document.getElementById("btn-cozinha1-on").addEventListener("click", function () {
-    ligarEnergia("cozinha");
+    ligarLuz("cozinha");
 });
 
 document.getElementById("btn-cozinha1-off").addEventListener("click", function () {
-    desligarEnergia("cozinha");
+    desligarLuz("cozinha");
 });
 
 document.getElementById("btn-quarto21-on").addEventListener("click", function () {
-    ligarEnergia("quarto2");
+    ligarLuz("quarto2");
 });
 
 document.getElementById("btn-quarto21-off").addEventListener("click", function () {
-    desligarEnergia("quarto2");
+    desligarLuz("quarto2");
 });
 
 document.getElementById("btn-quarto1-on").addEventListener("click", function () {
-    ligarEnergia("quarto");
+    ligarLuz("quarto");
 });
 
 document.getElementById("btn-quarto1-off").addEventListener("click", function () {
-    desligarEnergia("quarto");
+    desligarLuz("quarto");
 });
 
 document.getElementById("btn-banheiro1-on").addEventListener("click", function () {
-    ligarEnergia("banheiro");
+    ligarLuz("banheiro");
 });
 
 document.getElementById("btn-banheiro1-off").addEventListener("click", function () {
-    desligarEnergia("banheiro");
+    desligarLuz("banheiro");
 });
 
 function ligaGeral1(comodoId) {
@@ -112,7 +112,7 @@ function ligaGeral1(comodoId) {
 function desligaGeral1(comodoId) {
     var comodo = document.getElementById(comodoId);
     comodo.style.backgroundColor = "black";
-    comodo.style.color = "black";
+    comodo.style.color = "white";
     comodo.style.border = "2px solid white";
 }
 
