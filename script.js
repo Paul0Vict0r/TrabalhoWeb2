@@ -107,6 +107,7 @@ function ligaGeral1(comodoId) {
     var comodo = document.getElementById(comodoId);
     comodo.style.backgroundColor = "white";
     comodo.style.color = "black";
+    comodo.style.border = "2px solid black";
 }
 
 function desligaGeral1(comodoId) {
